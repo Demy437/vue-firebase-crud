@@ -3,12 +3,12 @@
     <h4>Tutorial</h4>
     <form>
       <div class="form-group">
-        <label for="title">Title</label>
+        <label for="client">Cliënt</label>
         <input
           type="text"
           class="form-control"
-          id="title"
-          v-model="currentTutorial.title"
+          id="client"
+          v-model="currentTutorial.client"
         />
       </div>
 

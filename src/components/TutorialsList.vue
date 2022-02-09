@@ -56,7 +56,7 @@ export default {
         let data = item.val();
         _tutorials.push({
           key: key,
-          title: data.title,
+          client: data.client,
           description: data.description,
           published: data.published,
         });

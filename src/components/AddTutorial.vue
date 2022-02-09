@@ -2,14 +2,14 @@
   <div class="submit-form">
     <div v-if="!submitted">
       <div class="form-group">
-        <label for="title">Title</label>
+        <label for="client">Cliënt</label>
         <input
           type="text"
           class="form-control"
-          id="title"
+          id="client"
           required
-          v-model="tutorial.title"
-          name="title"
+          v-model="tutorial.client"
+          name="client"
         />
       </div>
 
