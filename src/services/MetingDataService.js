@@ -1,14 +1,14 @@
 import firebase from "../firebase";
 
-const db = firebase.ref("/tutorials");
+const db = firebase.ref("/metingen");
 
-class TutorialDataService {
+class MetingDataService {
   getAll() {
     return db;
   }
 
-  create(tutorial) {
-    return db.push(tutorial);
+  create(meting) {
+    return db.push(meting);
   }
 
   update(key, value) {
@@ -24,4 +24,4 @@ class TutorialDataService {
   }
 }
 
-export default new TutorialDataService();
+export default new MetingDataService();
